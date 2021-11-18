@@ -13,6 +13,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mhinz/vim-signify'
 Plug 'preservim/tagbar'
+Plug 'sjl/gundo.vim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
