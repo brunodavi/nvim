@@ -7,12 +7,19 @@
     "Muntz",
     "Neovim",
     "autoload",
+    "ctrlp",
+    "ctrlpvim",
     "deps",
+    "jreybert",
+    "mhinz",
     "mygroup",
     "nvim",
+    "syntastic",
+    "tpope",
     "trybe",
     "uncommenting",
-    "vals"
+    "vals",
+    "vimagit"
   ],
   "python.pythonPath": "/usr/bin/python3"
 }

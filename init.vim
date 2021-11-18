@@ -3,10 +3,16 @@ Plug 'navarasu/onedark.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'vim-syntastic/syntastic' 
 Plug 'preservim/nerdcommenter'
 Plug 'ryanoasis/vim-devicons'
+Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot' 
 Plug 'chrisbra/colorizer'
+Plug 'tpope/vim-fugitive'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mhinz/vim-signify'
+Plug 'preservim/tagbar'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
@@ -44,10 +50,7 @@ nmap <silent> <C-Left> :tabNext<CR>
 nmap <silent> <M-Up> :m-2<CR>
 nmap <silent> <M-Down> :m+<CR>
 
-nmap q :q<CR>
-nmap <S-Q> :q!<CR>
-
-nmap <ESC> :noh<CR>
+nmap <silent> <ESC> :noh<CR>
 
 
 " Keys Insert:
