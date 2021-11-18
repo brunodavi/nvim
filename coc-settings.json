@@ -1,0 +1,18 @@
+{
+  "cSpellExt.enableDictionaries": [
+    "portuguese-brazilian"
+  ],
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [
+    "Muntz",
+    "Neovim",
+    "autoload",
+    "deps",
+    "mygroup",
+    "nvim",
+    "trybe",
+    "uncommenting",
+    "vals"
+  ],
+  "python.pythonPath": "/usr/bin/python3"
+}
