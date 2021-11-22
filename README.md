@@ -23,8 +23,14 @@ sh -c 'git clone https://github.com/brunodavi/nvim ~/.config/nvim/'
 pip3 install virtualenv || apt install --yes -- python3-venv
 ```
 
-#### Install Plugins & CHADdeps
+#### Install Plugins
 
 ```bash
-nvim +PlugInstall +CHADdeps
+nvim +PlugInstall +qa
+```
+
+#### Install CHADdeps
+
+```bash
+nvim +CHADdeps
 ```
