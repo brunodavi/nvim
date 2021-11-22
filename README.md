@@ -1,6 +1,6 @@
 # My Neovim
 
-My configurations to Neovim Beta (6+)
+My configurations to Neovim Beta (5+)
 
 ## Install `plug.vim`
 
