@@ -1,4 +1,4 @@
-# Neovim Configurations
+# My Neovim
 
 My configurations to Neovim Beta (6+)
 
