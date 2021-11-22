@@ -3,6 +3,9 @@ Plug 'navarasu/onedark.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+
 Plug 'vim-syntastic/syntastic' 
 Plug 'preservim/nerdcommenter'
 Plug 'ryanoasis/vim-devicons'
@@ -37,10 +40,6 @@ syntax on
 set relativenumber
 set number
 set mouse=a
-
-" New Tab:
-let g:airline#extensions#tabline#enabled = 1
-" let g:airline#extensions#tabline#fnamemod = ':t'
 
 " Tabs:
 filetype plugin on
