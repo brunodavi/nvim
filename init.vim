@@ -38,8 +38,10 @@ colorscheme onedark
 " Settings:
 syntax on
 set relativenumber
+set cursorline
+set nowrap
 set number
-set mouse=a
+set mouse+=a
 
 " Tabs:
 filetype plugin on
