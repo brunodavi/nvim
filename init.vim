@@ -5,7 +5,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
-
+Plug 'kizza/actionmenu.nvim'
+Plug 'tjdevries/coc-zsh'
 Plug 'vim-syntastic/syntastic' 
 Plug 'preservim/nerdcommenter'
 Plug 'ryanoasis/vim-devicons'
@@ -18,6 +19,7 @@ Plug 'mhinz/vim-signify'
 Plug 'preservim/tagbar'
 Plug 'sjl/gundo.vim'
 
+Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 
@@ -243,6 +245,34 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+" Coc Estencions:
+let g:coc_global_extensions = [
+ \ 'coc-html-css-support',
+ \ 'coc-spell-checker',
+ \ 'coc-cspell-dicts',
+ \ 'coc-markdownlint',
+ \ 'coc-pydocstring',
+ \ 'coc-diagnostic',
+ \ 'coc-restclient',
+ \ 'coc-stylelint',
+ \ 'coc-highlight',
+ \ 'coc-explorer',
+ \ 'coc-snippets',
+ \ 'coc-prettier',
+ \ 'coc-htmlhint',
+ \ 'coc-tsserver',
+ \ 'coc-pyright',
+ \ 'coc-eslint',
+ \ 'coc-emmet',
+ \ 'coc-pairs',
+ \ 'coc-json',
+ \ 'coc-calc',
+ \ 'coc-html',
+ \ 'coc-xml',
+ \ 'coc-git',
+ \ 'coc-sh'
+ \ ]
 
 " Prettier:
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
