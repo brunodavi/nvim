@@ -20,7 +20,7 @@ sh -c 'git clone https://github.com/brunodavi/nvim ~/.config/nvim/'
 #### CHADTREE Depends
 
 ```bash
-pip3 install virtualenv || apt install --yes -- python3-venv
+python3 -m pip install --user --upgrade pynvim && pip3 install virtualenv || apt install --yes -- python3-venv
 ```
 
 #### Install Plugins

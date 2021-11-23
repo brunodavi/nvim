@@ -23,6 +23,5 @@
     "vals",
     "vimagit"
   ],
-  "python.pythonPath": "/usr/bin/python3",
   "eslint.autoFixOnSave": true
 }
