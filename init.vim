@@ -5,19 +5,19 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'kyazdani42/nvim-web-devicons'
-Plug 'kizza/actionmenu.nvim'
-Plug 'tjdevries/coc-zsh'
 Plug 'preservim/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot' 
 Plug 'tpope/vim-fugitive'
+Plug 'tjdevries/coc-zsh'
 
 Plug 'vim-syntastic/syntastic' 
+Plug 'kizza/actionmenu.nvim'
 Plug 'chrisbra/colorizer'
 Plug 'mhinz/vim-signify'
 Plug 'preservim/tagbar'
-Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -250,18 +250,20 @@ let g:coc_global_extensions = [
  \ 'coc-markdownlint',
  \ 'coc-format-json',
  \ 'coc-pydocstring',
+ \ 'coc-restclient',
  \ 'coc-diagnostic',
  \ 'coc-restclient',
  \ 'coc-stylelint',
  \ 'coc-highlight',
- \ 'coc-explorer',
  \ 'coc-prettier',
+ \ 'coc-snippets',
  \ 'coc-htmlhint',
  \ 'coc-tsserver',
  \ 'coc-pyright',
  \ 'coc-eslint',
  \ 'coc-emmet',
  \ 'coc-pairs',
+ \ 'coc-jedi',
  \ 'coc-json',
  \ 'coc-calc',
  \ 'coc-html',
