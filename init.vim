@@ -5,19 +5,20 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'kyazdani42/nvim-web-devicons'
-Plug 'vim-syntastic/syntastic' 
+Plug 'kizza/actionmenu.nvim'
+Plug 'tjdevries/coc-zsh'
 Plug 'preservim/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot' 
-Plug 'chrisbra/colorizer'
 Plug 'tpope/vim-fugitive'
-Plug 'ctrlpvim/ctrlp.vim'
+
+Plug 'vim-syntastic/syntastic' 
+Plug 'chrisbra/colorizer'
 Plug 'mhinz/vim-signify'
 Plug 'preservim/tagbar'
-Plug 'sjl/gundo.vim'
-
-Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
@@ -36,8 +37,10 @@ colorscheme onedark
 syntax on
 set encoding=UTF-8
 set relativenumber
+set cursorline
+set nowrap
 set number
-set mouse=a
+set mouse+=a
 
 " Tabs:
 filetype plugin on
@@ -237,6 +240,35 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+
+" Coc Estencions:
+let g:coc_global_extensions = [
+ \ 'coc-html-css-support',
+ \ 'coc-spell-checker',
+ \ 'coc-cspell-dicts',
+ \ 'coc-markdownlint',
+ \ 'coc-format-json',
+ \ 'coc-pydocstring',
+ \ 'coc-diagnostic',
+ \ 'coc-restclient',
+ \ 'coc-stylelint',
+ \ 'coc-highlight',
+ \ 'coc-explorer',
+ \ 'coc-prettier',
+ \ 'coc-htmlhint',
+ \ 'coc-tsserver',
+ \ 'coc-pyright',
+ \ 'coc-eslint',
+ \ 'coc-emmet',
+ \ 'coc-pairs',
+ \ 'coc-json',
+ \ 'coc-calc',
+ \ 'coc-html',
+ \ 'coc-xml',
+ \ 'coc-git',
+ \ 'coc-sh'
+ \ ]
 
 
 " BarBar:
