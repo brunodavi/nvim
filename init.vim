@@ -22,7 +22,6 @@ Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 call plug#end()
 
 " SQL Complete:
@@ -53,22 +52,23 @@ set shiftwidth=2
 
 " Keys Normal:
 nmap <silent> <C-Right> :tabnext<CR>
-nmap <silent> <C-Left> :tabNext<CR>
+nmap <silent> <C-Left>  :tabNext<CR>
 
-nmap <silent> <M-Up> :m-2<CR>
-nmap <silent> <M-Down> :m+<CR>
+nmap <silent> <M-Up>    :m-2<CR>
+nmap <silent> <M-Down>  :m+<CR>
 
-nmap <silent> <ESC> :noh<CR>
+nmap <silent> q         :q<CR>
+nmap <silent> <ESC>     :noh<CR>
 
 
 " Keys Insert:
-imap <silent> <M-Up> <C-O>:m-2<CR>
+imap <silent> <M-Up>   <C-O>:m-2<CR>
 imap <silent> <M-Down> <C-O>:m+<CR>
 
 
 " Keys Visual:
-vnoremap <silent> <M-Up> :m '<-2<CR>gv=gv
-vnoremap <silent> <M-Down> :m '>+1<CR>gv=gv
+vnoremap <silent> <M-Up>   :m'<-2<CR>gv=gv
+vnoremap <silent> <M-Down> :m'>+1<CR>gv=gv
 
 
 " Plugins Config:
@@ -166,7 +166,7 @@ function! s:show_documentation()
 endfunction
 
 " Highlight the symbol and its references when holding the cursor.
-autocmd CursorHold * silent call CocActionAsync('highlight')
+" autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
@@ -226,20 +226,24 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 " Mappings for CoCList
 " Show all diagnostics.
 nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
-" Manage extensions.
-nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
 " Show commands.
 nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
+" Manage extensions.
+" nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
 " Find symbol of current document.
-nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
+" nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
 " Search workspace symbols.
-nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
+" nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
 " Do default action for next item.
-nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
+" nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 " Do default action for previous item.
-nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
+" nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
-nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+" nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+
+" Coc Explorer:
+nmap <silent><nowait> <space>e <Cmd>CocCommand explorer<CR>
 
 
 " Coc Estencions:
@@ -254,11 +258,11 @@ let g:coc_global_extensions = [
  \ 'coc-diagnostic',
  \ 'coc-restclient',
  \ 'coc-stylelint',
- \ 'coc-highlight',
  \ 'coc-prettier',
  \ 'coc-snippets',
  \ 'coc-htmlhint',
  \ 'coc-tsserver',
+ \ 'coc-explorer',
  \ 'coc-pyright',
  \ 'coc-eslint',
  \ 'coc-emmet',
@@ -318,11 +322,6 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
-
-
-" CHADTree:
-nnoremap <leader>v <cmd>CHADopen<cr>
-nnoremap <leader>l <cmd>call setqflist([])<cr>
 
 
 " Nerd Commenter:

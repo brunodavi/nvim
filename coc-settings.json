@@ -26,5 +26,13 @@
     "vals",
     "vimagit"
   ],
+  "explorer.keyMappings.global": {
+    "<cr>": [
+      "expandable?",
+      ["expanded?", "collapse", "expand"],
+      "open"
+    ],
+    "<space>": ["wait", "expandable?", "cd", "open"]
+  },
   "eslint.autoFixOnSave": true
 }
