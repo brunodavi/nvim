@@ -8,6 +8,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'preservim/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot' 
+Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'tjdevries/coc-zsh'
 
@@ -16,6 +17,7 @@ Plug 'kizza/actionmenu.nvim'
 Plug 'chrisbra/colorizer'
 Plug 'mhinz/vim-signify'
 Plug 'preservim/tagbar'
+
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
@@ -51,9 +53,6 @@ set shiftwidth=2
 
 
 " Keys Normal:
-nmap <silent> <C-Right> :tabnext<CR>
-nmap <silent> <C-Left>  :tabNext<CR>
-
 nmap <silent> <M-Up>    :m-2<CR>
 nmap <silent> <M-Down>  :m+<CR>
 
@@ -266,7 +265,6 @@ let g:coc_global_extensions = [
  \ 'coc-pyright',
  \ 'coc-eslint',
  \ 'coc-emmet',
- \ 'coc-pairs',
  \ 'coc-jedi',
  \ 'coc-json',
  \ 'coc-calc',
@@ -279,8 +277,8 @@ let g:coc_global_extensions = [
 
 " BarBar:
 " Move to previous/next
-nnoremap <silent>    <A-,> :BufferPrevious<CR>
-nnoremap <silent>    <A-.> :BufferNext<CR>
+nnoremap <silent>    <C-Left> :BufferPrevious<CR>
+nnoremap <silent>    <C-Right> :BufferNext<CR>
 " Re-order to previous/next
 nnoremap <silent>    <A-<> :BufferMovePrevious<CR>
 nnoremap <silent>    <A->> :BufferMoveNext<CR>
@@ -295,7 +293,7 @@ nnoremap <silent>    <A-7> :BufferGoto 7<CR>
 nnoremap <silent>    <A-8> :BufferGoto 8<CR>
 nnoremap <silent>    <A-9> :BufferLast<CR>
 " Pin/unpin buffer
-nnoremap <silent>    <A-p> :BufferPin<CR>
+" nnoremap <silent>    <A-p> :BufferPin<CR>
 " Close buffer
 nnoremap <silent>    <A-c> :BufferClose<CR>
 " Wipeout buffer
@@ -325,6 +323,40 @@ nmap <leader>f  <Plug>(coc-format-selected)
 
 
 " Nerd Commenter:
-let NERDSpaceDelims=1
+
+" Create default mappings
+" let g:NERDCreateDefaultMappings = 1
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+
+" Set a language to use its alternate delimiters by default
+let g:NERDAltDelims_java = 1
+
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+
+" Enable NERDCommenterToggle to check all selected lines is commented or not 
+let g:NERDToggleCheckAllLines = 1
+
 nmap <C-_> <Plug>NERDCommenterToggle
+imap <C-_> <C-O><Plug>NERDCommenterToggle
+
 vmap <C-_> <Plug>NERDCommenterToggle<CR>gv
+
+
+" AutoPairs:
+let g:AutoPairsFlyMode = 0
+let g:AutoPairsMultilineClose = 0
