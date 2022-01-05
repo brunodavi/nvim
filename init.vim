@@ -255,7 +255,6 @@ let g:coc_global_extensions = [
  \ 'coc-spell-checker',
  \ 'coc-cspell-dicts',
  \ 'coc-markdownlint',
- \ 'coc-format-json',
  \ 'coc-pydocstring',
  \ 'coc-restclient',
  \ 'coc-diagnostic',
