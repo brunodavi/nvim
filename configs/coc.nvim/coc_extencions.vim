@@ -14,6 +14,7 @@ let g:coc_global_extensions = [
  \ 'coc-tsserver',
  \ 'coc-explorer',
  \ 'coc-pyright',
+ \ 'coc-vimlsp',
  \ 'coc-eslint',
  \ 'coc-emmet',
  \ 'coc-jedi',

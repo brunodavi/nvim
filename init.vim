@@ -25,15 +25,16 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
+
 " Neovim Configs:
-source ./configs/settings/init.vim
+source $NVIM/configs/settings/init.vim
 
 
 " Plugins Configs:
-source ./configs/barbar.vim
-source ./configs/airline.vim
-source ./configs/prettier.vim
-source ./configs/autopairs.vim
-source ./configs/vimspector.vim
-source ./configs/coc.nvim/init.vim
-source ./configs/nerdcommenter.vim
+source $NVIM/configs/barbar.vim
+source $NVIM/configs/airline.vim
+source $NVIM/configs/prettier.vim
+source $NVIM/configs/autopairs.vim
+source $NVIM/configs/vimspector.vim
+source $NVIM/configs/coc.nvim/init.vim
+source $NVIM/configs/nerdcommenter.vim
