@@ -6,7 +6,6 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'preservim/nerdcommenter'
-Plug 'puremourning/vimspector'
 Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot' 
 Plug 'jiangmiao/auto-pairs'
@@ -16,6 +15,8 @@ Plug 'vim-syntastic/syntastic'
 Plug 'kizza/actionmenu.nvim'
 Plug 'chrisbra/colorizer'
 Plug 'mhinz/vim-signify'
+
+Plug 'mfussenegger/nvim-dap'
 
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
@@ -35,6 +36,5 @@ source $NVIM/configs/barbar.vim
 source $NVIM/configs/airline.vim
 source $NVIM/configs/prettier.vim
 source $NVIM/configs/autopairs.vim
-source $NVIM/configs/vimspector.vim
 source $NVIM/configs/coc.nvim/init.vim
 source $NVIM/configs/nerdcommenter.vim
