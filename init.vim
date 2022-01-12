@@ -30,7 +30,6 @@ source ./configs/settings/init.vim
 
 
 " Plugins Configs:
-
 source ./configs/barbar.vim
 source ./configs/airline.vim
 source ./configs/prettier.vim

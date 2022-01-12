@@ -23,6 +23,6 @@ set expandtab
 
 
 " Configs:
-source ./configs/settings/themes.vim
+source ./configs/settings/theme.vim
 source ./configs/settings/fixers.vim
 source ./configs/settings/keymaps.vim
