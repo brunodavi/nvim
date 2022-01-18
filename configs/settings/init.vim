@@ -1,7 +1,7 @@
 " Settings:
 syntax on
 
-set clipboard+=unnamedplus
+" set clipboard+=unnamedplus
 set encoding=UTF-8
 set mouse+=a
 

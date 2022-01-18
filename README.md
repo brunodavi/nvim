@@ -22,3 +22,4 @@ sh -c 'git clone https://github.com/brunodavi/nvim ~/.config/nvim/'
 ```bash
 nvim +PlugInstall +qa
 ```
+

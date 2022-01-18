@@ -41,6 +41,10 @@
   "explorer.icon.enableNerdfont": true,
   "explorer.icon.source": "nvim-web-devicons",
   "explorer.file.showHiddenFiles": true,
-  "explorer.debug": true
-   
+  "explorer.debug": true,
+  "emmet.extensionsPath": "~/.config/nvim/configs/coc.nvim/emmet",
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "markdown": "html"
+  }
 }
