@@ -13,6 +13,7 @@ let g:coc_global_extensions = [
  \ 'coc-htmlhint',
  \ 'coc-tsserver',
  \ 'coc-explorer',
+ \ 'coc-snippets',
  \ 'coc-pyright',
  \ 'coc-vimlsp',
  \ 'coc-eslint',

@@ -1,8 +1,12 @@
-const v = 'a';
+const a = 'a';
+const b = 'b';
+const c = 'c';
 
-console.log(v);
+console.log(a, b, c);
 
-function test(message) {
-  console.assert(true, message);
+const bc = b + c;
+
+for ( l of bc ) {
+  console.log(l);
 }
 

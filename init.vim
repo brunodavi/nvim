@@ -32,6 +32,7 @@ source $NVIM/configs/settings/init.vim
 
 
 " Plugins Configs:
+source $NVIM/configs/nvim-dap/init.vim
 source $NVIM/configs/barbar.vim
 source $NVIM/configs/airline.vim
 source $NVIM/configs/prettier.vim
