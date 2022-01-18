@@ -8,8 +8,8 @@ let g:onedark_config = {
         \ },
       \ 'code_style': {
         \ 'comments': 'bold',
-        \ 'keywords': 'bold',
-        \ 'functions': 'bold',
+        \ 'keywords': 'none',
+        \ 'functions': 'none',
         \ 'strings': 'none',
         \ 'variables': 'none'
         \ },

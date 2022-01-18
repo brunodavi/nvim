@@ -28,13 +28,13 @@ call plug#end()
 
 
 " Neovim Configs:
-source $NVIM/configs/settings/init.vim
+source $HOME/.config/nvim/configs/settings/init.vim
 
 
 " Plugins Configs:
-source $NVIM/configs/barbar.vim
-source $NVIM/configs/airline.vim
-source $NVIM/configs/prettier.vim
-source $NVIM/configs/autopairs.vim
-source $NVIM/configs/coc.nvim/init.vim
-source $NVIM/configs/nerdcommenter.vim
+source $HOME/.config/nvim/configs/barbar.vim
+source $HOME/.config/nvim/configs/airline.vim
+source $HOME/.config/nvim/configs/prettier.vim
+source $HOME/.config/nvim/configs/autopairs.vim
+source $HOME/.config/nvim/configs/coc.nvim/init.vim
+source $HOME/.config/nvim/configs/nerdcommenter.vim

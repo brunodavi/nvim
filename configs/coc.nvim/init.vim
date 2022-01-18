@@ -154,5 +154,5 @@ nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
 " Resume latest coc list.
 " nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-source $NVIM/configs/coc.nvim/coc_explorer.vim
-source $NVIM/configs/coc.nvim/coc_extencions.vim
+source $HOME/.config/nvim/configs/coc.nvim/coc_explorer.vim
+source $HOME/.config/nvim/configs/coc.nvim/coc_extencions.vim
