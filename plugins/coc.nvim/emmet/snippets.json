@@ -1,0 +1,10 @@
+{
+  "html": {
+    "snippets": {
+      "sum": "<summary>$0</summary>"
+    }
+  },
+  "ejs": {
+    "extends": "html"
+  }
+}

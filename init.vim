@@ -13,10 +13,13 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'vim-syntastic/syntastic' 
 Plug 'kizza/actionmenu.nvim'
-Plug 'chrisbra/colorizer'
+" Plug 'chrisbra/colorizer'
 Plug 'mhinz/vim-signify'
+Plug 'DougBeney/pickachu'
 
 Plug 'mfussenegger/nvim-dap'
+Plug 'KabbAmine/vCoolor.vim'
+Plug 'norcalli/nvim-colorizer.lua'
 
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
@@ -27,14 +30,17 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
 
-" Neovim Configs:
-source $HOME/.config/nvim/configs/settings/init.vim
+" Nvim:
+source $HOME/.config/nvim/settings/init.vim
 
+" Vim Plugins:
+source $HOME/.config/nvim/plugins/airline.vim
+source $HOME/.config/nvim/plugins/prettier.vim
+source $HOME/.config/nvim/plugins/autopairs.vim
+source $HOME/.config/nvim/plugins/barbar/init.vim
+source $HOME/.config/nvim/plugins/coc.nvim/init.vim
+source $HOME/.config/nvim/plugins/nerdcommenter.vim
 
-" Plugins Configs:
-source $HOME/.config/nvim/configs/barbar.vim
-source $HOME/.config/nvim/configs/airline.vim
-source $HOME/.config/nvim/configs/prettier.vim
-source $HOME/.config/nvim/configs/autopairs.vim
-source $HOME/.config/nvim/configs/coc.nvim/init.vim
-source $HOME/.config/nvim/configs/nerdcommenter.vim
+" Lua Plugins:
+luafile $HOME/.config/nvim/plugins/colorizer.lua/init.lua
+
