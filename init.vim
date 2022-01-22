@@ -11,21 +11,21 @@ Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 
-Plug 'vim-syntastic/syntastic' 
+" Plug 'vim-syntastic/syntastic'
 Plug 'kizza/actionmenu.nvim'
-" Plug 'chrisbra/colorizer'
-Plug 'mhinz/vim-signify'
+Plug 'chrisbra/colorizer'
+" Plug 'mhinz/vim-signify'
 Plug 'DougBeney/pickachu'
 
 Plug 'mfussenegger/nvim-dap'
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'norcalli/nvim-colorizer.lua'
 
-Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
-Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
-Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
+" Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+" Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+" Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'master'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
