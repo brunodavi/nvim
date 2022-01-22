@@ -1,4 +1,4 @@
-# My Neovim
+# Meu Neovim
 
 Minhas configurações do neovim
 
