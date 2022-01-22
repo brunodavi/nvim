@@ -2,6 +2,8 @@
 
 Minhas configurações do neovim
 
+![neovim](https://github.com/brunodavi/nvim/raw/screenshots/neovim.png)
+
 ## Inicio Rápido
 
 ```bash
