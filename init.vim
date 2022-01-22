@@ -13,7 +13,6 @@ Plug 'tpope/vim-fugitive'
 
 " Plug 'vim-syntastic/syntastic'
 Plug 'kizza/actionmenu.nvim'
-Plug 'chrisbra/colorizer'
 " Plug 'mhinz/vim-signify'
 Plug 'DougBeney/pickachu'
 

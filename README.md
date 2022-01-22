@@ -1,25 +1,23 @@
 # My Neovim
 
-My configurations to Neovim (5+)
+Minhas configurações do neovim
 
-## Install
-
-#### Plug
+## Inicio Rápido
 
 ```bash
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+# Cria o diretório do vim-plug
+mkdir -p ~/.local/share/nvim/site/autoload/
+
+# Instala o vim-plug
+curl -sLo ~/.local/share/nvim/site/autoload/plug.vim \
+    https://github.com/junegunn/vim-plug/raw/master/plug.vim
+
+# Instala o yarn como dependência do coc.nvim
+sudo npm i -g yarn
+
+
+# Inicia o neovim com um comando para instalar
+# todos os plugins e extensões
+nvim +PlugInstall
+
 ```
-
-#### Neovim Config
-
-```bash
-sh -c 'git clone https://github.com/brunodavi/nvim ~/.config/nvim/'
-```
-
-#### Install Plugins
-
-```bash
-nvim +PlugInstall +qa
-```
-
