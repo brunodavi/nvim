@@ -17,7 +17,6 @@ curl -sLo ~/.local/share/nvim/site/autoload/plug.vim \
 # Instala o yarn como dependência do coc.nvim
 sudo npm i -g yarn
 
-
 # Inicia o neovim com um comando para instalar
 # todos os plugins e extensões
 nvim +PlugInstall
