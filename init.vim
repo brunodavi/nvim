@@ -24,7 +24,7 @@ Plug 'norcalli/nvim-colorizer.lua'
 " Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 " Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
