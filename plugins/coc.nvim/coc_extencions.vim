@@ -1,6 +1,7 @@
 let g:coc_global_extensions = [
  \ 'coc-html-css-support',
  \ 'coc-spell-checker',
+ \ 'coc-stylelintplus',
  \ 'coc-cspell-dicts',
  \ 'coc-markdownlint',
  \ 'coc-pydocstring',
