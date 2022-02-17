@@ -6,23 +6,23 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'preservim/nerdcommenter'
-Plug 'airblade/vim-gitgutter'
+" Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot' 
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 
-" Plug 'vim-syntastic/syntastic'
-Plug 'kizza/actionmenu.nvim'
-" Plug 'mhinz/vim-signify'
-Plug 'DougBeney/pickachu'
+Plug 'vim-syntastic/syntastic'
+" Plug 'kizza/actionmenu.nvim'
+Plug 'mhinz/vim-signify'
+" Plug 'DougBeney/pickachu'
 
 Plug 'mfussenegger/nvim-dap'
-Plug 'KabbAmine/vCoolor.vim'
+" Plug 'KabbAmine/vCoolor.vim'
 Plug 'norcalli/nvim-colorizer.lua'
 
-" Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
-" Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
-" Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
+Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}

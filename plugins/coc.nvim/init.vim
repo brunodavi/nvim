@@ -155,4 +155,4 @@ nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
 " nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 source $HOME/.config/nvim/plugins/coc.nvim/coc_explorer.vim
-source $HOME/.config/nvim/plugins/coc.nvim/coc_extencions.vim
+source $HOME/.config/nvim/plugins/coc.nvim/coc_extensions.vim
