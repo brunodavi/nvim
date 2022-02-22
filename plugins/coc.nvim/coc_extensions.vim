@@ -21,6 +21,7 @@ let g:coc_global_extensions = [
  \ 'coc-eslint',
  \ 'coc-emmet',
  \ 'coc-jest',
+ \ 'coc-java',
  \ 'coc-jedi',
  \ 'coc-json',
  \ 'coc-calc',

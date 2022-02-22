@@ -2,37 +2,6 @@
   "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.htmlLanguages": ["jst"],
 
-  "cSpell.userWords": [
-    "Muntz",
-    "Neovim",
-    "Tasker",
-    "Xuyuanp",
-    "alphanum",
-    "autoload",
-    "brunodavi",
-    "ctrlp",
-    "ctrlpvim",
-    "deps",
-    "dotfiles",
-    "gundo",
-    "htmlhint",
-    "jreybert",
-    "kyazdani",
-    "mhinz",
-    "mygroup",
-    "nvim",
-    "regexs",
-    "romgrk",
-    "syntastic",
-    "testid",
-    "tldcs",
-    "tlds",
-    "tpope",
-    "trybe",
-    "uncommenting",
-    "vals",
-    "vimagit"
-  ],
   "cSpellExt.enableDictionaries": ["portuguese-brazilian"],
   "cSpell.language": "en,pt,pt_BR",
 
@@ -73,5 +42,6 @@
     "jst": "html"
   },
 
-  "python.linting.flake8Enabled": true
+  "python.linting.flake8Enabled": true,
+  "python.pythonPath": "python3"
 }

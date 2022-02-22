@@ -1,5 +1,5 @@
 call plug#begin()
-Plug 'romgrk/barbar.nvim'
+" Plug 'romgrk/barbar.nvim'
 Plug 'navarasu/onedark.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -7,6 +7,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'preservim/nerdcommenter'
 " Plug 'airblade/vim-gitgutter'
+Plug 'cohama/lexima.vim'
 Plug 'sheerun/vim-polyglot' 
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
@@ -35,8 +36,8 @@ source $HOME/.config/nvim/settings/init.vim
 " Vim Plugins:
 source $HOME/.config/nvim/plugins/airline.vim
 source $HOME/.config/nvim/plugins/prettier.vim
-source $HOME/.config/nvim/plugins/autopairs.vim
-source $HOME/.config/nvim/plugins/barbar/init.vim
+" source $HOME/.config/nvim/plugins/autopairs.vim
+" source $HOME/.config/nvim/plugins/barbar/init.vim
 source $HOME/.config/nvim/plugins/coc.nvim/init.vim
 source $HOME/.config/nvim/plugins/nerdcommenter.vim
 
