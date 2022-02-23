@@ -40,8 +40,5 @@
   "emmet.includeLanguages": {
     "markdown": "html",
     "jst": "html"
-  },
-
-  "python.linting.flake8Enabled": true,
-  "python.pythonPath": "python3"
+  }
 }

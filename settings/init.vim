@@ -1,7 +1,6 @@
 " Settings:
 syntax on
 
-" set clipboard+=unnamedplus
 set encoding=UTF-8
 set mouse+=a
 
@@ -20,7 +19,6 @@ set tabstop=2
 
 set autoindent
 set expandtab
-
 
 " Configs:
 source $HOME/.config/nvim/settings/theme.vim
