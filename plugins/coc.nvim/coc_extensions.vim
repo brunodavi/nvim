@@ -15,7 +15,6 @@ let g:coc_global_extensions = [
  \ 'coc-htmlhint',
  \ 'coc-tsserver',
  \ 'coc-explorer',
- \ 'coc-snippets',
  \ 'coc-pyright',
  \ 'coc-vimlsp',
  \ 'coc-eslint',
@@ -24,10 +23,8 @@ let g:coc_global_extensions = [
  \ 'coc-java',
  \ 'coc-jedi',
  \ 'coc-json',
- \ 'coc-calc',
  \ 'coc-html',
  \ 'coc-css',
- \ 'coc-xml',
  \ 'coc-git',
  \ 'coc-sh'
  \ ]

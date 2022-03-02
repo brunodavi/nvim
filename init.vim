@@ -6,39 +6,35 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'vim-scripts/cream-showinvisibles'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'norcalli/nvim-colorizer.lua'
 Plug 'preservim/nerdcommenter'
-" Plug 'airblade/vim-gitgutter'
-Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
+Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 
-" Plug 'kizza/actionmenu.nvim'
-" Plug 'mhinz/vim-signify'
 " Plug 'DougBeney/pickachu'
-
-" Plug 'mfussenegger/nvim-dap'
 " Plug 'KabbAmine/vCoolor.vim'
-Plug 'norcalli/nvim-colorizer.lua'
 
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
-" Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
-" Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
+Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
-
 " Nvim:
 source $HOME/.config/nvim/settings/init.vim
 
 " Vim Plugins:
+source $HOME/.config/nvim/plugins/coq.vim
 source $HOME/.config/nvim/plugins/airline.vim
 source $HOME/.config/nvim/plugins/prettier.vim
 source $HOME/.config/nvim/plugins/autopairs.vim
 source $HOME/.config/nvim/plugins/barbar/init.vim
 source $HOME/.config/nvim/plugins/coc.nvim/init.vim
 source $HOME/.config/nvim/plugins/nerdcommenter.vim
+source $HOME/.config/nvim/plugins/colorizer.vim
 
 " Lua Plugins:
 luafile $HOME/.config/nvim/plugins/colorizer.lua/init.lua

@@ -5,10 +5,12 @@ nmap <silent> <M-Down>  :m+<CR>
 nmap <silent> q         :q<CR>
 nmap <silent> <ESC>     :noh<CR>
 
-nnoremap  <leader>y  "+y
+nnoremap  <leader>y     "+y
+nnoremap <leader>vr     :so $MYVIMRC<CR>
 
 nnoremap <C-i>          :CocCommand eslint.executeAutofix<CR>
 nnoremap <C-p>          :Prettier<CR>
+
 
 
 " Insert:
