@@ -18,8 +18,8 @@ nnoremap <silent>    <A-9> :BufferLast<CR>
 " nnoremap <silent>    <A-P> :BufferPin<CR>
 
 " Close Buffer
-nnoremap <silent>    <A-w> :BufferClose<CR>
-nnoremap <silent>    <A-S-w> :BufferClose!<CR>
+nnoremap <silent>    <A-c> :BufferClose<CR>
+nnoremap <silent>    <A-w> :BufferClose!<CR>
 " Wipeout buffer
 "                          :BufferWipeout<CR>
 " Close commands
