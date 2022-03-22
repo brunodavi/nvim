@@ -12,9 +12,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 
-" Plug 'DougBeney/pickachu'
-" Plug 'KabbAmine/vCoolor.vim'
-
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
@@ -30,6 +27,7 @@ source $HOME/.config/nvim/settings/init.vim
 source $HOME/.config/nvim/plugins/coq.vim
 source $HOME/.config/nvim/plugins/airline.vim
 source $HOME/.config/nvim/plugins/prettier.vim
+source $HOME/.config/nvim/plugins/polyglot.vim
 source $HOME/.config/nvim/plugins/autopairs.vim
 source $HOME/.config/nvim/plugins/colorizer.vim
 source $HOME/.config/nvim/plugins/visualmult.vim
