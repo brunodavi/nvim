@@ -31,10 +31,11 @@ source $HOME/.config/nvim/plugins/coq.vim
 source $HOME/.config/nvim/plugins/airline.vim
 source $HOME/.config/nvim/plugins/prettier.vim
 source $HOME/.config/nvim/plugins/autopairs.vim
+source $HOME/.config/nvim/plugins/colorizer.vim
+source $HOME/.config/nvim/plugins/visualmult.vim
 source $HOME/.config/nvim/plugins/barbar/init.vim
 source $HOME/.config/nvim/plugins/coc.nvim/init.vim
 source $HOME/.config/nvim/plugins/nerdcommenter.vim
-source $HOME/.config/nvim/plugins/colorizer.vim
 
 " Lua Plugins:
 luafile $HOME/.config/nvim/plugins/colorizer.lua/init.lua
