@@ -4,7 +4,6 @@ syntax on
 set encoding=UTF-8
 set mouse+=a
 
-set foldmethod=syntax
 set relativenumber
 set cursorline
 set nowrap
