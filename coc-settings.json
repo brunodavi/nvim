@@ -44,5 +44,10 @@
     "jst": "html"
   },
 
-  "python.linting.flake8Enabled": true
+  "python.linting.flake8Enabled": true,
+
+  "cSpell.userWords": [
+    "hamburguer",
+    "joao"
+  ]
 }
