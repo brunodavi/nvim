@@ -7,8 +7,7 @@ Minhas configurações do neovim
 ## Dependências
 
 ```bash
-# Python Neovim
-python3 -m pip install neovim
+python3 -m pip install neovim neovim-remote
 
 ```
 
