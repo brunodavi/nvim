@@ -12,6 +12,11 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'vim-syntastic/syntastic'
+Plug 'OmniSharp/omnisharp-vim'
+
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'rodrigore/coc-tailwind-intellisense', {'do': 'npm install'}
