@@ -1,6 +1,6 @@
 # Meu Neovim
 
-Minhas configurações do neovim
+Minhas configurações do neovim a partir da versão 5 ou superior
 
 ![neovim](https://github.com/brunodavi/nvim/raw/screenshots/neovim.png)
 
