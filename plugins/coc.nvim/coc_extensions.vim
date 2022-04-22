@@ -10,6 +10,7 @@ let g:coc_global_extensions = [
  \ 'coc-diagnostic',
  \ 'coc-restclient',
  \ 'coc-stylelint',
+ \ 'coc-omnisharp',
  \ 'coc-prettier',
  \ 'coc-snippets',
  \ 'coc-htmlhint',
