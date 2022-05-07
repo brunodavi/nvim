@@ -47,7 +47,11 @@
   "python.linting.flake8Enabled": true,
 
   "cSpell.userWords": [
+    "dotfiles",
+    "funcs",
     "hamburguer",
-    "joao"
+    "joao",
+    "nvim",
+    "termux"
   ]
 }
