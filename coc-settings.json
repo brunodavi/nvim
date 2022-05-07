@@ -8,6 +8,51 @@
   "eslint.packageManager": "npm",
   "eslint.autoFixOnSave": false,
 
+  "cSpell.enabledLanguageIds": [
+    "vim",
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "gitcommit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "python",
+    "pug",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+
+  "cSpell.userWords": [
+    "dotfiles",
+    "funcs",
+    "hamburguer",
+    "joao",
+    "nvim",
+    "termux"
+  ],
+
   "htmlhint.documentSelector": ["html", "ejs"],
 
   "html.filetypes": ["html", "ejs"],
@@ -44,14 +89,5 @@
     "jst": "html"
   },
 
-  "python.linting.flake8Enabled": true,
-
-  "cSpell.userWords": [
-    "dotfiles",
-    "funcs",
-    "hamburguer",
-    "joao",
-    "nvim",
-    "termux"
-  ]
+  "python.linting.flake8Enabled": true
 }
